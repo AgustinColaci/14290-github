@@ -9,11 +9,20 @@ html {
   font-family: 'Raleway', sans-serif; }
 
 body {
-  background-color: rgb(238, 238, 238);
+  background-color: rgba(204, 0, 0, 0.39);
 }
 
 h1 {
   font-size: 4rem;
   padding: 2rem;
   text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  font-size: 2rem;
 }
